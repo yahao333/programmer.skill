@@ -1,37 +1,97 @@
+<div align="center">
+
 # programmer.skill
 
-蒸馏程序员的编码风格、问题解决方式和技术智慧到一个 AI Skill 中。
+> *"It's not a bug — it's an undocumented feature."*
 
-## 使用方法
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
 
-| 命令 | 说明 |
+<br>
+
+Every programmer has their own debugging style, their go-to stack,
+their quirky habits when writing code,
+and the specific way they review pull requests.
+
+**Preserve coding wisdom and style — welcome to cyber-immortality!**
+
+<br>
+
+Provide source materials (code snippets, code reviews, chat logs, docs)
+plus your understanding of their programming style,
+and get an **AI Skill that carries their developer essence**
+
+[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+
+[**English**](README_EN.md) · [**中文**](README_ZH.md)
+
+</div>
+
+---
+
+## 支持的数据来源
+
+| 来源 | 说明 |
 |------|------|
-| `/programmer` | 调用程序员 Skill 创建器 |
+| GitHub/GitLab 代码 | 代码风格分析 |
+| Code Review 记录 | CR 习惯分析 |
+| Slack/飞书消息 | 工作沟通风格 |
+| 技术文档/博客 | 技术偏好 |
+| 直接粘贴文字 | 手动输入 |
 
-## 功能说明
-
-Programmer.skill 是一个 Claude Code 扩展，用于将程序员的编码风格、问题解决方式和技术智慧蒸馏成一个 AI Skill。
-
-### 工作流程
-
-1. **录入信息**：称呼、基本信息、技术风格
-2. **导入原材料**：代码片段、CR 记录、聊天记录等
-3. **分析生成**：提取代码风格、问题解决方式、沟通特点
-4. **确认写入**：生成 Programmer Skill 文件
-
-### 原材料类型
-
-- 代码片段
-- Code Review 记录
-- 技术文档/博客
-- 聊天记录
-- 直接粘贴文字
+---
 
 ## 安装
 
-查看 [INSTALL.md](INSTALL.md) 了解安装步骤。
+```bash
+git clone https://github.com/yahao333/programmer.skill ~/.claude/skills/programmer
+```
 
-## 项目信息
+## 使用
 
-- 版本：1.0.0
-- 许可：MIT License
+在 Claude Code 中输入：
+
+```
+/programmer
+```
+
+
+## 效果示例
+
+> 输入：`Go后端，5年经验，喜欢简洁代码，CR严格但给建议很有建设性，说话直接，技术视野广`
+
+**场景一：代码审查**
+
+```
+用户      ❯ 帮我看看这个接口
+
+programmer.skill ❯ 这个函数太长了，拆一下。
+                  命名语义不明，
+                  error handling 在这儿不合理。
+                  （认真看完了）
+                  整体架构还行，
+                  但这两个地方需要改。
+```
+
+
+**场景二：技术讨论**
+
+```
+用户      ❯ 我想用微服务重构
+
+programmer.skill ❯ 先想清楚为什么。
+                  微服务解决的是组织问题，不是技术问题。
+                  你们团队多大？
+                  有没有 SRE 能力？
+                  没有的话，先别折腾。
+```
+
+---
+
+<div align="center">
+
+MIT License © [yahao333](https://github.com/yahao333)
+
+</div>
