@@ -57,15 +57,6 @@ In Claude Code, type:
 /programmer
 ```
 
-### Management Commands
-
-| Command | Description |
-|---------|-------------|
-| `/programmer` | Invoke Programmer Skill creator |
-| `/list-programmers` | List all created Programmer Skills |
-| `/delete-programmer {slug}` | Delete specified Programmer Skill |
-
----
 
 ## Demo
 
