@@ -1,8 +1,8 @@
 <div align="center">
 
-# programmer.skill
+# 程序员.skill
 
-> *"It's not a bug — it's an undocumented feature."*
+> *"这不是 bug，这是未文档化的特性。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,19 +11,19 @@
 
 <br>
 
-Every programmer has their own debugging style, their go-to stack,
-their quirky habits when writing code,
-and the specific way they review pull requests.
+每个程序员都有自己的调试风格、技术栈偏好，
+写代码时的怪癖，
+还有 Code Review 时独特的表达方式。
 
-**Preserve coding wisdom and style — welcome to cyber-immortality!**
+**保留编码智慧和风格 —— 欢迎加入赛博永生！**
 
 <br>
 
-Provide source materials (code snippets, code reviews, chat logs, docs)
-plus your understanding of their programming style,
-and get an **AI Skill that carries their developer essence**
+提供原材料（代码片段、Code Review 记录、聊天记录、技术文档）
+加上你对他们编程风格的理解，
+生成一个**承载他们开发者灵魂的 AI Skill**
 
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
