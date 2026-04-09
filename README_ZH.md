@@ -57,15 +57,6 @@ git clone https://github.com/yahao333/programmer.skill ~/.claude/skills/programm
 /programmer
 ```
 
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/programmer` | 调用 Programmer Skill 创建器 |
-| `/list-programmers` | 列出所有已创建的 Programmer Skill |
-| `/delete-programmer {slug}` | 删除指定 Programmer Skill |
-
----
 
 ## 效果示例
 
