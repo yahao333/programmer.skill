@@ -49,8 +49,6 @@ and get an **AI Skill that carries their developer essence**
 git clone https://github.com/yahao333/programmer.skill ~/.claude/skills/programmer
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -59,14 +57,13 @@ git clone https://github.com/yahao333/programmer.skill ~/.claude/skills/programm
 /programmer
 ```
 
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/programmer` | 调用完整 Skill |
-| `/programmer-code` | 代码审查模式 |
-| `/programmer-debug` | Debug 模式 |
-| `/programmer-explain` | 技术解释模式 |
+| `/programmer` | 调用 Programmer Skill 创建器 |
+| `/list-programmers` | 列出所有已创建的 Programmer Skill |
+| `/delete-programmer {slug}` | 删除指定 Programmer Skill |
 
 ---
 
@@ -86,6 +83,7 @@ programmer.skill ❯ 这个函数太长了，拆一下。
                   整体架构还行，
                   但这两个地方需要改。
 ```
+
 
 **场景二：技术讨论**
 

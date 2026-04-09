@@ -49,8 +49,6 @@ and get an **AI Skill that carries their developer essence**
 git clone https://github.com/yahao333/programmer.skill ~/.claude/skills/programmer
 ```
 
----
-
 ## Usage
 
 In Claude Code, type:
@@ -59,14 +57,13 @@ In Claude Code, type:
 /programmer
 ```
 
-### Commands
+### Management Commands
 
 | Command | Description |
 |---------|-------------|
-| `/programmer` | Invoke full Skill |
-| `/programmer-code` | Code review mode |
-| `/programmer-debug` | Debug mode |
-| `/programmer-explain` | Tech explanation mode |
+| `/programmer` | Invoke Programmer Skill creator |
+| `/list-programmers` | List all created Programmer Skills |
+| `/delete-programmer {slug}` | Delete specified Programmer Skill |
 
 ---
 
